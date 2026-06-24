@@ -1,0 +1,22 @@
+{
+  "name": "soq-template-streaming-payments",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Streaming micropayments on Soqucoin Lightning. A Builders League starter template: pay-per-second, pay only for what you consume.",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/stream.js",
+    "demo": "npm start"
+  },
+  "keywords": ["soqucoin", "lightning", "streaming", "micropayments", "pay-per-second", "post-quantum"],
+  "license": "MIT",
+  "dependencies": {
+    "soq-lightning-sdk": "^0.1.0-alpha.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0"
+  }
+}
