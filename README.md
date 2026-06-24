@@ -27,7 +27,7 @@ To stream real payments on stagenet:
 
 ```bash
 cp .env.example .env
-# set LSP_URL=https://lightning.soqupool.com
+# set LSP_URL=https://lsp.soqu.org
 npm start
 ```
 
