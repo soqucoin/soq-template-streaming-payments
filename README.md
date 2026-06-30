@@ -64,4 +64,8 @@ In LOCAL mode the payments are simulated so you can run it with no network. In L
 
 Subscriptions overcharge people who use a little and undercharge people who use a lot. Streaming micropayments price exactly what is consumed, second by second, with no signup and no card on file. That is only practical when a payment costs a fraction of a cent and settles instantly, which is exactly what this rail provides, and it stays secure in the quantum era.
 
+## Legal
+
+This template is provided for educational use on a test network, "AS IS" and without warranty, under the MIT License. It is a technical illustration, not a recommendation to pursue any particular business or use case, and it is not legal, financial, or tax advice. You are solely responsible for ensuring that anything you build with it complies with all applicable laws and regulations, including securities, money-transmission/MSB, AML/KYC, sanctions, tax, consumer-protection, and data-privacy laws. Some use cases are heavily regulated and may require licensing. Obtain your own legal advice before launching. See the Builders League terms: https://soqu.org/terms
+
 Build something with this and apply to the Builders League at soqu.org/build/apply.
