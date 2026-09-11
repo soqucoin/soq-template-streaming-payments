@@ -60,7 +60,7 @@ Amounts are in satoshis; 1 SOQ is 100,000,000.
 
 In LOCAL mode the payments are simulated so you can run it with no network. In LIVE mode (set `LSP_URL`) each tick is a real `ln.pay()` over a stagenet channel between the viewer and the Lightning service provider. The code path is identical; only the destination differs. Full routing to an arbitrary content host uses the SDK's HTLC and forwarding layer, which lights up as those endpoints ship.
 
-> **New:** the creator side can now get paid for real — LSP invoices (`ln.createInvoice` / `ln.awaitInvoicePaid`, SDK ≥ 0.1.0-alpha.2) give any channel a `soqln:` request-to-pay URI, settled custodially by the hosted LSP. A stream of ticks paid INTO your channel is one invoice per metering window; see the merchant-pos template for the full receive flow.
+> **New:** the creator side can now get paid for real: LSP invoices (`ln.createInvoice` / `ln.awaitInvoicePaid`, SDK ≥ 0.1.0-alpha.2) give any channel a `soqln:` request-to-pay URI, settled by the Lightning service provider acting as channel counterparty on the public test network. A stream of ticks paid INTO your channel is one invoice per metering window; see the merchant-pos template for the full receive flow.
 
 ## Why this matters
 
